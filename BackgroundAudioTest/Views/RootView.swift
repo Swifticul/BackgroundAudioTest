@@ -12,15 +12,15 @@ struct ContentView: View {
         playSound(sound: "dragonatlas", type: "mp3")
     }
     var body: some View {
+        NavigationView  {
             List {
-                Section {
-                    Text("BackgroundAudioTest by swifticul")
-                        .bold()
-                    Text("Radix - Dragon Atlas")
-                } .onAppear() {
-                    dragonatlas()
-                }
-            }
+                Text("BackgroundAudioTest app by swifticul")
+                    .bold()
+                Text("Song used: Dragon Atlas by Radix")
+            } .navigationTitle("BackgroundAudioTest")
+        } .onAppear(){
+            dragonatlas()
+        }
     }
 }
 
