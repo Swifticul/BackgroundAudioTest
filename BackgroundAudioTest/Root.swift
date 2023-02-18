@@ -1,5 +1,5 @@
 //
-//  BackgroundAudioTestApp.swift
+//  Root.swift
 //  BackgroundAudioTest
 //
 //  Created by Theo De Roy on 18/02/2023.
