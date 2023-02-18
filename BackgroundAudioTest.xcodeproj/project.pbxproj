@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0F6F73929A1066900AFAAA3 /* BackgroundAudioTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F6F73829A1066900AFAAA3 /* BackgroundAudioTestApp.swift */; };
+		F0F6F73B29A1066900AFAAA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F6F73A29A1066900AFAAA3 /* ContentView.swift */; };
+		F0F6F73D29A1066B00AFAAA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F6F73C29A1066B00AFAAA3 /* Assets.xcassets */; };
+		F0F6F74129A1066B00AFAAA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F6F74029A1066B00AFAAA3 /* Preview Assets.xcassets */; };
+		F0F6F74B29A1066C00AFAAA3 /* BackgroundAudioTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F6F74A29A1066C00AFAAA3 /* BackgroundAudioTestTests.swift */; };
+		F0F6F75529A1066C00AFAAA3 /* BackgroundAudioTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F6F75429A1066C00AFAAA3 /* BackgroundAudioTestUITests.swift */; };
+		F0F6F75729A1066C00AFAAA3 /* BackgroundAudioTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F6F75629A1066C00AFAAA3 /* BackgroundAudioTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0F6F74729A1066C00AFAAA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F6F72D29A1066900AFAAA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0F6F73429A1066900AFAAA3;
+			remoteInfo = BackgroundAudioTest;
+		};
+		F0F6F75129A1066C00AFAAA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F6F72D29A1066900AFAAA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0F6F73429A1066900AFAAA3;
+			remoteInfo = BackgroundAudioTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0F6F73529A1066900AFAAA3 /* BackgroundAudioTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundAudioTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F6F73829A1066900AFAAA3 /* BackgroundAudioTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAudioTestApp.swift; sourceTree = "<group>"; };
+		F0F6F73A29A1066900AFAAA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0F6F73C29A1066B00AFAAA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0F6F73E29A1066B00AFAAA3 /* BackgroundAudioTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BackgroundAudioTest.entitlements; sourceTree = "<group>"; };
+		F0F6F74029A1066B00AFAAA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0F6F74629A1066C00AFAAA3 /* BackgroundAudioTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroundAudioTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F6F74A29A1066C00AFAAA3 /* BackgroundAudioTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAudioTestTests.swift; sourceTree = "<group>"; };
+		F0F6F75029A1066C00AFAAA3 /* BackgroundAudioTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroundAudioTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F6F75429A1066C00AFAAA3 /* BackgroundAudioTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAudioTestUITests.swift; sourceTree = "<group>"; };
+		F0F6F75629A1066C00AFAAA3 /* BackgroundAudioTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAudioTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0F6F73229A1066900AFAAA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F6F74329A1066C00AFAAA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F6F74D29A1066C00AFAAA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0F6F72C29A1066900AFAAA3 = {
+			isa = PBXGroup;
+			children = (
+				F0F6F73729A1066900AFAAA3 /* BackgroundAudioTest */,
+				F0F6F74929A1066C00AFAAA3 /* BackgroundAudioTestTests */,
+				F0F6F75329A1066C00AFAAA3 /* BackgroundAudioTestUITests */,
+				F0F6F73629A1066900AFAAA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0F6F73629A1066900AFAAA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0F6F73529A1066900AFAAA3 /* BackgroundAudioTest.app */,
+				F0F6F74629A1066C00AFAAA3 /* BackgroundAudioTestTests.xctest */,
+				F0F6F75029A1066C00AFAAA3 /* BackgroundAudioTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0F6F73729A1066900AFAAA3 /* BackgroundAudioTest */ = {
+			isa = PBXGroup;
+			children = (
+				F0F6F73829A1066900AFAAA3 /* BackgroundAudioTestApp.swift */,
+				F0F6F73A29A1066900AFAAA3 /* ContentView.swift */,
+				F0F6F73C29A1066B00AFAAA3 /* Assets.xcassets */,
+				F0F6F73E29A1066B00AFAAA3 /* BackgroundAudioTest.entitlements */,
+				F0F6F73F29A1066B00AFAAA3 /* Preview Content */,
+			);
+			path = BackgroundAudioTest;
+			sourceTree = "<group>";
+		};
+		F0F6F73F29A1066B00AFAAA3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F0F6F74029A1066B00AFAAA3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0F6F74929A1066C00AFAAA3 /* BackgroundAudioTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0F6F74A29A1066C00AFAAA3 /* BackgroundAudioTestTests.swift */,
+			);
+			path = BackgroundAudioTestTests;
+			sourceTree = "<group>";
+		};
+		F0F6F75329A1066C00AFAAA3 /* BackgroundAudioTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0F6F75429A1066C00AFAAA3 /* BackgroundAudioTestUITests.swift */,
+				F0F6F75629A1066C00AFAAA3 /* BackgroundAudioTestUITestsLaunchTests.swift */,
+			);
+			path = BackgroundAudioTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0F6F73429A1066900AFAAA3 /* BackgroundAudioTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F6F75A29A1066C00AFAAA3 /* Build configuration list for PBXNativeTarget "BackgroundAudioTest" */;
+			buildPhases = (
+				F0F6F73129A1066900AFAAA3 /* Sources */,
+				F0F6F73229A1066900AFAAA3 /* Frameworks */,
+				F0F6F73329A1066900AFAAA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackgroundAudioTest;
+			productName = BackgroundAudioTest;
+			productReference = F0F6F73529A1066900AFAAA3 /* BackgroundAudioTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0F6F74529A1066C00AFAAA3 /* BackgroundAudioTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F6F75D29A1066C00AFAAA3 /* Build configuration list for PBXNativeTarget "BackgroundAudioTestTests" */;
+			buildPhases = (
+				F0F6F74229A1066C00AFAAA3 /* Sources */,
+				F0F6F74329A1066C00AFAAA3 /* Frameworks */,
+				F0F6F74429A1066C00AFAAA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0F6F74829A1066C00AFAAA3 /* PBXTargetDependency */,
+			);
+			name = BackgroundAudioTestTests;
+			productName = BackgroundAudioTestTests;
+			productReference = F0F6F74629A1066C00AFAAA3 /* BackgroundAudioTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0F6F74F29A1066C00AFAAA3 /* BackgroundAudioTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F6F76029A1066C00AFAAA3 /* Build configuration list for PBXNativeTarget "BackgroundAudioTestUITests" */;
+			buildPhases = (
+				F0F6F74C29A1066C00AFAAA3 /* Sources */,
+				F0F6F74D29A1066C00AFAAA3 /* Frameworks */,
+				F0F6F74E29A1066C00AFAAA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0F6F75229A1066C00AFAAA3 /* PBXTargetDependency */,
+			);
+			name = BackgroundAudioTestUITests;
+			productName = BackgroundAudioTestUITests;
+			productReference = F0F6F75029A1066C00AFAAA3 /* BackgroundAudioTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0F6F72D29A1066900AFAAA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F0F6F73429A1066900AFAAA3 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F0F6F74529A1066C00AFAAA3 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F0F6F73429A1066900AFAAA3;
+					};
+					F0F6F74F29A1066C00AFAAA3 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F0F6F73429A1066900AFAAA3;
+					};
+				};
+			};
+			buildConfigurationList = F0F6F73029A1066900AFAAA3 /* Build configuration list for PBXProject "BackgroundAudioTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0F6F72C29A1066900AFAAA3;
+			productRefGroup = F0F6F73629A1066900AFAAA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0F6F73429A1066900AFAAA3 /* BackgroundAudioTest */,
+				F0F6F74529A1066C00AFAAA3 /* BackgroundAudioTestTests */,
+				F0F6F74F29A1066C00AFAAA3 /* BackgroundAudioTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0F6F73329A1066900AFAAA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F6F74129A1066B00AFAAA3 /* Preview Assets.xcassets in Resources */,
+				F0F6F73D29A1066B00AFAAA3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F6F74429A1066C00AFAAA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F6F74E29A1066C00AFAAA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0F6F73129A1066900AFAAA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F6F73B29A1066900AFAAA3 /* ContentView.swift in Sources */,
+				F0F6F73929A1066900AFAAA3 /* BackgroundAudioTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F6F74229A1066C00AFAAA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F6F74B29A1066C00AFAAA3 /* BackgroundAudioTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F6F74C29A1066C00AFAAA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F6F75529A1066C00AFAAA3 /* BackgroundAudioTestUITests.swift in Sources */,
+				F0F6F75729A1066C00AFAAA3 /* BackgroundAudioTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0F6F74829A1066C00AFAAA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0F6F73429A1066900AFAAA3 /* BackgroundAudioTest */;
+			targetProxy = F0F6F74729A1066C00AFAAA3 /* PBXContainerItemProxy */;
+		};
+		F0F6F75229A1066C00AFAAA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0F6F73429A1066900AFAAA3 /* BackgroundAudioTest */;
+			targetProxy = F0F6F75129A1066C00AFAAA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F0F6F75829A1066C00AFAAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0F6F75929A1066C00AFAAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F0F6F75B29A1066C00AFAAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BackgroundAudioTest/BackgroundAudioTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BackgroundAudioTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "astral-framework.BackgroundAudioTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0F6F75C29A1066C00AFAAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BackgroundAudioTest/BackgroundAudioTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BackgroundAudioTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "astral-framework.BackgroundAudioTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0F6F75E29A1066C00AFAAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "astral-framework.BackgroundAudioTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackgroundAudioTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BackgroundAudioTest";
+			};
+			name = Debug;
+		};
+		F0F6F75F29A1066C00AFAAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "astral-framework.BackgroundAudioTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackgroundAudioTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BackgroundAudioTest";
+			};
+			name = Release;
+		};
+		F0F6F76129A1066C00AFAAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "astral-framework.BackgroundAudioTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BackgroundAudioTest;
+			};
+			name = Debug;
+		};
+		F0F6F76229A1066C00AFAAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "astral-framework.BackgroundAudioTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BackgroundAudioTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0F6F73029A1066900AFAAA3 /* Build configuration list for PBXProject "BackgroundAudioTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F6F75829A1066C00AFAAA3 /* Debug */,
+				F0F6F75929A1066C00AFAAA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F6F75A29A1066C00AFAAA3 /* Build configuration list for PBXNativeTarget "BackgroundAudioTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F6F75B29A1066C00AFAAA3 /* Debug */,
+				F0F6F75C29A1066C00AFAAA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F6F75D29A1066C00AFAAA3 /* Build configuration list for PBXNativeTarget "BackgroundAudioTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F6F75E29A1066C00AFAAA3 /* Debug */,
+				F0F6F75F29A1066C00AFAAA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F6F76029A1066C00AFAAA3 /* Build configuration list for PBXNativeTarget "BackgroundAudioTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F6F76129A1066C00AFAAA3 /* Debug */,
+				F0F6F76229A1066C00AFAAA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0F6F72D29A1066900AFAAA3 /* Project object */;
+}
